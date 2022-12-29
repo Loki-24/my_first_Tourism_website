@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Website</title>
+        <link rel="stylesheet" href = "./first website style.css">
+    </head>
+    <body>
+        <nav>
+            <img src=""/>
+            <a onclick= "display('home')">HOME</a>
+            <a onclick= "display('about')">ABOUT</a>
+            <a onclick= "display('services')">SERVICES</a>
+            <a onclick= "display('employees')">EMPLOYEES</a>
+            <a onclick= "display('contactus')">CONTACT US</a>
+        </nav>
+        <div id="home">
+             <h1>WELCOME</h1>
+             <p>Hi, this is the home page.</p>
+        </div>
+        <div id="about">
+            <h1>This is my first website</h1>
+            <p>In this i will practice whatever i want.</p>
+        </div>
+        <div id="services">
+            <h1>SERVICES</h1>
+            <P>We provide all kind of Programming services.</P>
+        </div>
+        <div id="employees">
+            <h1>EMPLOYEES LIST</h1>
+            <ol>
+                <li>SURESH</li>
+                <li>RAMESH</li>
+                <li>MUKESH</li>
+                <li>ASKESH</li>
+                <li>KALESH</li>
+            </ol>
+            <table border="3">
+                <thead>
+                    <th colspan="4">EMPLOYEE DETAILS</th>
+                </thead>
+                <thead>
+                    <th>NAME</th>
+                    <th>DESIGNATION</th>
+                    <th>EXPERIENCE</th>
+                    <th>SALARY</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SURESH</td>
+                        <td> GENERAL MANAGER</td>
+                        <td>5 YEARS</td>
+                        <td>30 LPA</td>
+                    </tr>
+                    <tr>
+                        <td>RAMESH</td>
+                        <td>MANAGER</td>
+                        <td>4 YEARS</td>
+                        <td>26 LPA</td>
+                    </tr>
+                    <tr>
+                        <td>MUKESH</td>
+                        <td>TEAM LEAD</td>
+                        <td>3 YEARS</td>
+                        <td>20 LPA</td>
+                    </tr>
+                    <tr>
+                        <td>ASKESH</td>
+                        <td>BACK-END DEVELOPER</td>
+                        <td>3 YEARS</td>
+                        <td>15 LPA</td>
+                    </tr>
+                    <tr>
+                        <td>KAMESH</td>
+                        <td>FRONT-END DEVELOPER</td>
+                        <td>3 YEARS</td>
+                        <td>10 LPA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="contactus">
+            <h1>CONTACT US</h1>
+            <h2>PHONE NO: 9876543210</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6252076987266!2d77.6942081143046!3d12.99580691786415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae110b04a3be4b%3A0xcffb252dab2e9643!2sPhoenix%20Marketcity!5e0!3m2!1sen!2sin!4v1672209361434!5m2!1sen!2sin" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </body>
